@@ -1,5 +1,7 @@
 # Weather App w/ React and Redux!
 
+A weather app that uses the open weather map api to list the 5 day weather forcast of a city the user searches for. 
+
 ## Getting Started
 
 Clone the Repo!
@@ -9,5 +11,7 @@ See the Page!
 
 ## Dependancies
 
-Redux-Promise
-Axios
+-React
+-Redux
+-Redux-Promise
+-Axios
