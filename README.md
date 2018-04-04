@@ -1,6 +1,8 @@
 # Weather App w/ React and Redux!
 
-A weather app that uses the open weather map api to list the 5 day weather forcast of a city the user searches for. 
+TODO: Finish App.
+
+This will be a weather app that uses the open weather map api to list the 5 day weather forcast of a city the user searches for. 
 
 ## Getting Started
 
