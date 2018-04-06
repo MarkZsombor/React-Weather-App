@@ -6,12 +6,11 @@ Issue: OpenWeatherMap uses Victoria NFLD as the search result for Victoria, Oak 
 
 ## Getting Started
 
-```
-Clone the Repo!
-Install Dependancies!
-Start the Server!
-See the Page!
-```
+
+Clone the Repo!  
+Install Dependancies! `npm install`  
+Start the Server! `npm start`  
+View the Page! `localhost:8080`  
 
 ## Dependancies
 
