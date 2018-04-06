@@ -21,6 +21,10 @@ class WeatherList extends Component {
     );
   }
   render() {
+    console.log('props', this.props.weather);
+    if (!this.props.weather.length) {
+      console.log('nothing yet');
+    }
     return (
       <table className="table table-hover">
         <thead>

@@ -15,3 +15,15 @@ td:first-of-type, td:first-of-type > div {
   height: 200px;
   width: 250px;
 }
+
+.navbar {
+  background: lightskyblue;
+  height: 60px;
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+
+.navbar-brand {
+  color: black;
+}
