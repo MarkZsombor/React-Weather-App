@@ -4,7 +4,7 @@ td, th {
 }
 
 .input-group {
-  margin: 20px 0px;
+  margin: 80px 0px 20px;
 }
 
 svg {
@@ -19,9 +19,9 @@ td:first-of-type, td:first-of-type > div {
 .navbar {
   background-color: lightskyblue;
   height: 60px;
-  position: fixed;
+  /* position: fixed;
   right: 0;
-  top: 0;
+  top: 0; */
 }
 
 .navbar-brand {
