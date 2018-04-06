@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 
 import Chart from '../components/chart';
 import GoogleMap from '../components/google_map';
+import DefaultLoad from '../components/default_load';
 
 class WeatherList extends Component {
   renderWeather(cityData) {
@@ -21,9 +22,10 @@ class WeatherList extends Component {
     );
   }
   render() {
-    console.log('props', this.props.weather);
     if (!this.props.weather.length) {
-      console.log('nothing yet');
+      return (
+        <DefaultLoad />
+      );
     }
     return (
       <table className="table table-hover">

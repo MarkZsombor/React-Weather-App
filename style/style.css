@@ -17,7 +17,7 @@ td:first-of-type, td:first-of-type > div {
 }
 
 .navbar {
-  background: lightskyblue;
+  background-color: lightskyblue;
   height: 60px;
   position: fixed;
   right: 0;
@@ -26,4 +26,38 @@ td:first-of-type, td:first-of-type > div {
 
 .navbar-brand {
   color: black;
+}
+
+.no-cities {
+  margin-top: 40px;
+  /* background-color: lightskyblue; */
+}
+
+.default-h {
+  margin-bottom: 15px;
+}
+
+.earth {
+  background-image: url('../images/world.png');
+  background-size: 200% auto;
+  background-repeat: repeat;
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  border-radius: 50%;
+  box-shadow: inset 50px -50px 100px rgba(0, 0, 0, .6);
+  margin-bottom: 20px;
+}
+
+@keyframes spin {
+  0% {
+    background-position: -100% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+.earth {
+  animation: spin 10s infinite linear;
 }
