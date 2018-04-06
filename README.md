@@ -14,11 +14,11 @@ View the Page! `localhost:8080`
 
 ## Dependancies
 
-React
-Redux
-Redux-Promise
-Axios
-React-Sparklines
+React  
+Redux  
+Redux-Promise  
+Axios  
+React-Sparklines  
 
-OpenWeatherMap API
-Google Maps API
+OpenWeatherMap API  
+Google Maps API  
