@@ -19,3 +19,4 @@ See the Page!
 *Redux  
 *Redux-Promise  
 *Axios  
+*React-Sparklines  
