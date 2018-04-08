@@ -1,9 +1,9 @@
 import React from 'react';
 
-export default function Header() {
+export default function NavBar(title) {
   return (
     <div className="navbar navbar-fixed-top">
-      <a href="/" className="navbar-brand">Mark's 5 Day Weather</a>
+      <a href="/" className="navbar-brand">{title.title}</a>
     </div>
   );
 }
