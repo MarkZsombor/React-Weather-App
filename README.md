@@ -12,7 +12,7 @@ TODO:
 
 Clone the Repo!  
 Install Dependancies! `npm install`  
-Start the Server! `npm start`  
+Start the Server! `npm run dev`  
 View the Page! `localhost:8080`  
 
 ## Dependancies
