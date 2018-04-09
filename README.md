@@ -25,3 +25,5 @@ React-Sparklines
 
 OpenWeatherMap API  
 Google Maps API  
+
+This project was started using the boilerplate found [here](https://github.com/MarkZsombor/ReduxSimpleStarter).
